@@ -25,8 +25,26 @@ def retrievedata(location):
         resultdata = u'{},{}天气{},气温{}度.'.format(WTR[0],WTR[1],WTR[2],WTR[3])
         return resultdata
 
+def gethistory():
+    con = lite.connect('weather.db')
+    with con:
+        cur = con.cursor()
+        cur.execute('SELECT * from SeachWeathers')
+        HTY = cur.fetchall()
+    print(HTY)
+
+def updatedata(location ,weather):
+    con = lite.connect('weather.db')
+    with con:
+        cur = con.cursor()
+        cur.execute('UPDATE SeachWeathers set weather=? where location = ?',(weather,location))
+
+
+
+
 
 if __name__ == '__main__':
-    createdata()
-    insertdata('2017-10-2','beijing','cloud','30')
-    print(retrievedata('beijing'))
+    insertdata('2017-10-2','北京','阴天','30')
+    updatedata('北京','多云')
+
+    gethistory()
