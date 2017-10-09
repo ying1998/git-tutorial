@@ -4,6 +4,8 @@ from flask import request
 import requests
 import json
 import xlrd
+from database import  createdata,insertdata,retrievedata,gethistory,updatedata
+
 
 city_book = xlrd.open_workbook( "thinkpage_cities.xls")
 city_table = city_book.sheets()[1]
@@ -37,10 +39,11 @@ def search_request():
         return render_template("help.html")
     elif request.args.get('query')=="查询":
         city = request.args.get('city')
+
         if city  in city_name:
-                foundweather = find_weather(city)
-                Str = "%s 的天气为 %s，温度为%s,更新时间：%s "%(city,foundweather['text'],foundweather['temperature'],foundweather['time'])
-                HTY.append(Str)
+                #foundweather = find_weather(city)
+                #Str = "%s 的天气为 %s，温度为%s,更新时间：%s "%(city,foundweather['text'],foundweather['temperature'],foundweather['time'])
+                Str = "%s"%retrievedata(city)
                 return render_template("query.html",Str=Str)
         else:
             return render_template("body.html")
