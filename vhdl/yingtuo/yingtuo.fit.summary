@@ -1,0 +1,11 @@
+Fitter Status : Successful - Sun Nov 05 16:44:40 2017
+Quartus II Version : 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition
+Revision Name : yingtuo
+Top-level Entity Name : yingtuo
+Family : MAX II
+Device : EPM1270T144C5
+Timing Models : Final
+Total logic elements : 394 / 1,270 ( 31 % )
+Total pins : 51 / 116 ( 44 % )
+Total virtual pins : 0
+UFM blocks : 0 / 1 ( 0 % )
