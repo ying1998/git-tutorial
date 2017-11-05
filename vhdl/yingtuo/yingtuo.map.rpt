@@ -1,5 +1,5 @@
 Analysis & Synthesis report for yingtuo
-Sun Nov 05 16:44:38 2017
+Sun Nov 05 18:51:13 2017
 Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
 
 
@@ -44,12 +44,12 @@ applicable agreement for further details.
 +----------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                               ;
 +-----------------------------+----------------------------------------------+
-; Analysis & Synthesis Status ; Successful - Sun Nov 05 16:44:38 2017        ;
+; Analysis & Synthesis Status ; Successful - Sun Nov 05 18:51:13 2017        ;
 ; Quartus II Version          ; 9.0 Build 235 06/17/2009 SP 2 SJ Web Edition ;
 ; Revision Name               ; yingtuo                                      ;
 ; Top-level Entity Name       ; yingtuo                                      ;
 ; Family                      ; MAX II                                       ;
-; Total logic elements        ; 426                                          ;
+; Total logic elements        ; 427                                          ;
 ; Total pins                  ; 51                                           ;
 ; Total virtual pins          ; 0                                            ;
 ; UFM blocks                  ; 0 / 1 ( 0 % )                                ;
@@ -120,24 +120,24 @@ applicable agreement for further details.
 +--------------------------------------------------------------+--------------------+--------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                   ;
-+----------------------------------+-----------------+------------------------------------------+------------------------------------------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                                ; File Name with Absolute Path             ;
-+----------------------------------+-----------------+------------------------------------------+------------------------------------------+
-; yingtuo.bdf                      ; yes             ; Auto-Found Block Diagram/Schematic File  ; E:/ddl-vhdl/yingtuo/yingtuo.bdf          ;
-; jianpan.vhd                      ; yes             ; Auto-Found VHDL File                     ; E:/ddl-vhdl/yingtuo/jianpan.vhd          ;
-; testcounter.vhd                  ; yes             ; Auto-Found VHDL File                     ; E:/ddl-vhdl/yingtuo/testcounter.vhd      ;
-; testdianzhen.vhd                 ; yes             ; Auto-Found VHDL File                     ; E:/ddl-vhdl/yingtuo/testdianzhen.vhd     ;
-; control.vhd                      ; yes             ; Auto-Found VHDL File                     ; E:/ddl-vhdl/yingtuo/control.vhd          ;
-; daojishi.vhd                     ; yes             ; Auto-Found VHDL File                     ; E:/ddl-vhdl/yingtuo/daojishi.vhd         ;
-; defenjishu1103.vhd               ; yes             ; Auto-Found VHDL File                     ; E:/ddl-vhdl/yingtuo/defenjishu1103.vhd   ;
-; jifenqi1103.vhd                  ; yes             ; Auto-Found VHDL File                     ; E:/ddl-vhdl/yingtuo/jifenqi1103.vhd      ;
-; xiaodou.vhd                      ; yes             ; Auto-Found VHDL File                     ; E:/ddl-vhdl/yingtuo/xiaodou.vhd          ;
-; caidan1103.vhd                   ; yes             ; Auto-Found VHDL File                     ; E:/ddl-vhdl/yingtuo/caidan1103.vhd       ;
-; shumaguan.vhd                    ; yes             ; Auto-Found VHDL File                     ; E:/ddl-vhdl/yingtuo/shumaguan.vhd        ;
-; jifenxianshi1105.vhd             ; yes             ; Auto-Found VHDL File                     ; E:/ddl-vhdl/yingtuo/jifenxianshi1105.vhd ;
-+----------------------------------+-----------------+------------------------------------------+------------------------------------------+
++------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                             ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path             ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------+
+; yingtuo.bdf                      ; yes             ; User Block Diagram/Schematic File  ; E:/ddl-vhdl/yingtuo/yingtuo.bdf          ;
+; caidan1103.vhd                   ; yes             ; User VHDL File                     ; E:/ddl-vhdl/yingtuo/caidan1103.vhd       ;
+; control.vhd                      ; yes             ; User VHDL File                     ; E:/ddl-vhdl/yingtuo/control.vhd          ;
+; daojishi.vhd                     ; yes             ; User VHDL File                     ; E:/ddl-vhdl/yingtuo/daojishi.vhd         ;
+; defenjishu1103.vhd               ; yes             ; User VHDL File                     ; E:/ddl-vhdl/yingtuo/defenjishu1103.vhd   ;
+; jianpan.vhd                      ; yes             ; User VHDL File                     ; E:/ddl-vhdl/yingtuo/jianpan.vhd          ;
+; jifenqi1103.vhd                  ; yes             ; User VHDL File                     ; E:/ddl-vhdl/yingtuo/jifenqi1103.vhd      ;
+; jifenxianshi1105.vhd             ; yes             ; User VHDL File                     ; E:/ddl-vhdl/yingtuo/jifenxianshi1105.vhd ;
+; shumaguan.vhd                    ; yes             ; User VHDL File                     ; E:/ddl-vhdl/yingtuo/shumaguan.vhd        ;
+; testcounter.vhd                  ; yes             ; User VHDL File                     ; E:/ddl-vhdl/yingtuo/testcounter.vhd      ;
+; testdianzhen.vhd                 ; yes             ; User VHDL File                     ; E:/ddl-vhdl/yingtuo/testdianzhen.vhd     ;
+; xiaodou.vhd                      ; yes             ; User VHDL File                     ; E:/ddl-vhdl/yingtuo/xiaodou.vhd          ;
++----------------------------------+-----------------+------------------------------------+------------------------------------------+
 
 
 +-----------------------------------------------------+
@@ -145,20 +145,20 @@ applicable agreement for further details.
 +---------------------------------------------+-------+
 ; Resource                                    ; Usage ;
 +---------------------------------------------+-------+
-; Total logic elements                        ; 426   ;
-;     -- Combinational with no register       ; 291   ;
+; Total logic elements                        ; 427   ;
+;     -- Combinational with no register       ; 292   ;
 ;     -- Register only                        ; 52    ;
 ;     -- Combinational with a register        ; 83    ;
 ;                                             ;       ;
 ; Logic element usage by number of LUT inputs ;       ;
-;     -- 4 input functions                    ; 212   ;
-;     -- 3 input functions                    ; 90    ;
-;     -- 2 input functions                    ; 65    ;
+;     -- 4 input functions                    ; 211   ;
+;     -- 3 input functions                    ; 94    ;
+;     -- 2 input functions                    ; 63    ;
 ;     -- 1 input functions                    ; 7     ;
 ;     -- 0 input functions                    ; 0     ;
 ;                                             ;       ;
 ; Logic elements by mode                      ;       ;
-;     -- normal mode                          ; 411   ;
+;     -- normal mode                          ; 412   ;
 ;     -- arithmetic mode                      ; 15    ;
 ;     -- qfbk mode                            ; 0     ;
 ;     -- register cascade mode                ; 0     ;
@@ -169,9 +169,9 @@ applicable agreement for further details.
 ; Total logic cells in carry chains           ; 16    ;
 ; I/O pins                                    ; 51    ;
 ; Maximum fan-out node                        ; RESET ;
-; Maximum fan-out                             ; 71    ;
-; Total fan-out                               ; 1585  ;
-; Average fan-out                             ; 3.32  ;
+; Maximum fan-out                             ; 72    ;
+; Total fan-out                               ; 1597  ;
+; Average fan-out                             ; 3.34  ;
 +---------------------------------------------+-------+
 
 
@@ -180,7 +180,7 @@ applicable agreement for further details.
 +-----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------------------+--------------+
 ; Compilation Hierarchy Node  ; Logic Cells ; LC Registers ; UFM Blocks ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name             ; Library Name ;
 +-----------------------------+-------------+--------------+------------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------------------+--------------+
-; |yingtuo                    ; 426 (0)     ; 135          ; 0          ; 51   ; 0            ; 291 (0)      ; 52 (0)            ; 83 (0)           ; 16 (0)          ; 0 (0)      ; |yingtuo                        ; work         ;
+; |yingtuo                    ; 427 (0)     ; 135          ; 0          ; 51   ; 0            ; 292 (0)      ; 52 (0)            ; 83 (0)           ; 16 (0)          ; 0 (0)      ; |yingtuo                        ; work         ;
 ;    |caidan1103:inst7|       ; 54 (54)     ; 24           ; 0          ; 0    ; 0            ; 30 (30)      ; 16 (16)           ; 8 (8)            ; 0 (0)           ; 0 (0)      ; |yingtuo|caidan1103:inst7       ; work         ;
 ;    |control:inst6|          ; 8 (8)       ; 3            ; 0          ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 3 (3)            ; 0 (0)           ; 0 (0)      ; |yingtuo|control:inst6          ; work         ;
 ;    |daojishi:inst1|         ; 19 (19)     ; 8            ; 0          ; 0    ; 0            ; 11 (11)      ; 2 (2)             ; 6 (6)            ; 0 (0)           ; 0 (0)      ; |yingtuo|daojishi:inst1         ; work         ;
@@ -188,7 +188,7 @@ applicable agreement for further details.
 ;    |jianpan:inst9|          ; 22 (22)     ; 8            ; 0          ; 0    ; 0            ; 14 (14)      ; 0 (0)             ; 8 (8)            ; 0 (0)           ; 0 (0)      ; |yingtuo|jianpan:inst9          ; work         ;
 ;    |jifenqi1103:inst2|      ; 37 (37)     ; 0            ; 0          ; 0    ; 0            ; 37 (37)      ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |yingtuo|jifenqi1103:inst2      ; work         ;
 ;    |jifenxianshi1105:inst4| ; 4 (4)       ; 0            ; 0          ; 0    ; 0            ; 4 (4)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |yingtuo|jifenxianshi1105:inst4 ; work         ;
-;    |shumaguan:inst5|        ; 84 (84)     ; 15           ; 0          ; 0    ; 0            ; 69 (69)      ; 0 (0)             ; 15 (15)          ; 0 (0)           ; 0 (0)      ; |yingtuo|shumaguan:inst5        ; work         ;
+;    |shumaguan:inst5|        ; 85 (85)     ; 15           ; 0          ; 0    ; 0            ; 70 (70)      ; 0 (0)             ; 15 (15)          ; 0 (0)           ; 0 (0)      ; |yingtuo|shumaguan:inst5        ; work         ;
 ;    |testcounter:inst|       ; 47 (47)     ; 24           ; 0          ; 0    ; 0            ; 23 (23)      ; 10 (10)           ; 14 (14)          ; 16 (16)         ; 0 (0)      ; |yingtuo|testcounter:inst       ; work         ;
 ;    |testdianzhen:inst8|     ; 107 (107)   ; 24           ; 0          ; 0    ; 0            ; 83 (83)      ; 0 (0)             ; 24 (24)          ; 0 (0)           ; 0 (0)      ; |yingtuo|testdianzhen:inst8     ; work         ;
 ;    |xiaodou:inst10|         ; 32 (32)     ; 24           ; 0          ; 0    ; 0            ; 8 (8)        ; 24 (24)           ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |yingtuo|xiaodou:inst10         ; work         ;
@@ -273,13 +273,13 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 +----------------------------------------+---------+
 ; Inverted Register                      ; Fan out ;
 +----------------------------------------+---------+
-; shumaguan:inst5|link_out_scan[6]       ; 14      ;
-; shumaguan:inst5|link_out_scan[2]       ; 5       ;
-; shumaguan:inst5|link_out_scan[3]       ; 7       ;
-; shumaguan:inst5|link_out_scan[4]       ; 7       ;
-; shumaguan:inst5|link_out_scan[5]       ; 7       ;
-; shumaguan:inst5|link_out_scan[0]       ; 14      ;
+; shumaguan:inst5|link_out_scan[6]       ; 16      ;
+; shumaguan:inst5|link_out_scan[5]       ; 8       ;
+; shumaguan:inst5|link_out_scan[4]       ; 8       ;
+; shumaguan:inst5|link_out_scan[3]       ; 8       ;
+; shumaguan:inst5|link_out_scan[2]       ; 6       ;
 ; shumaguan:inst5|link_out_scan[1]       ; 13      ;
+; shumaguan:inst5|link_out_scan[0]       ; 17      ;
 ; Total number of inverted registers = 7 ;         ;
 +----------------------------------------+---------+
 
@@ -310,21 +310,47 @@ Note: All cells listed above may not be present at the end of synthesis due to v
 Info: *******************************************************************
 Info: Running Quartus II Analysis & Synthesis
     Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
-    Info: Processing started: Sun Nov 05 16:44:35 2017
+    Info: Processing started: Sun Nov 05 18:51:11 2017
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off yingtuo -c yingtuo
-Info: Found 1 design units, including 1 entities, in source file Block1.bdf
-    Info: Found entity 1: Block1
-Warning: Using design file yingtuo.bdf, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
+Info: Found 1 design units, including 1 entities, in source file yingtuo.bdf
     Info: Found entity 1: yingtuo
-Info: Elaborating entity "yingtuo" for the top level hierarchy
-Warning: Block or symbol "shumaguan" of instance "inst5" overlaps another block or symbol
-Warning: Block or symbol "control" of instance "inst6" overlaps another block or symbol
-Warning: Block or symbol "xiaodou" of instance "inst10" overlaps another block or symbol
-Warning: Pin "SCAN_NIXIE[7..0]" is missing source
-Warning: Pin "BEGIN_BTN7" not connected
-Warning: Using design file jianpan.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
+Info: Found 2 design units, including 1 entities, in source file caidan1103.vhd
+    Info: Found design unit 1: caidan1103-behavioral
+    Info: Found entity 1: caidan1103
+Info: Found 2 design units, including 1 entities, in source file control.vhd
+    Info: Found design unit 1: control-behavior
+    Info: Found entity 1: control
+Info: Found 2 design units, including 1 entities, in source file daojishi.vhd
+    Info: Found design unit 1: daojishi-counter_1
+    Info: Found entity 1: daojishi
+Info: Found 2 design units, including 1 entities, in source file defenjishu1103.vhd
+    Info: Found design unit 1: defenjishu1103-behavior
+    Info: Found entity 1: defenjishu1103
+Info: Found 2 design units, including 1 entities, in source file jianpan.vhd
     Info: Found design unit 1: jianpan-behavior
     Info: Found entity 1: jianpan
+Info: Found 2 design units, including 1 entities, in source file jifenqi1103.vhd
+    Info: Found design unit 1: jifenqi1103-behavior
+    Info: Found entity 1: jifenqi1103
+Info: Found 2 design units, including 1 entities, in source file jifenxianshi1105.vhd
+    Info: Found design unit 1: jifenxianshi1105-behavior
+    Info: Found entity 1: jifenxianshi1105
+Info: Found 2 design units, including 1 entities, in source file shumaguan.vhd
+    Info: Found design unit 1: shumaguan-behavior
+    Info: Found entity 1: shumaguan
+Info: Found 2 design units, including 1 entities, in source file testcounter.vhd
+    Info: Found design unit 1: testcounter-counter_1
+    Info: Found entity 1: testcounter
+Info: Found 2 design units, including 1 entities, in source file testdianzhen.vhd
+    Info: Found design unit 1: testdianzhen-behavior
+    Info: Found entity 1: testdianzhen
+Info: Found 2 design units, including 1 entities, in source file xiaodou.vhd
+    Info: Found design unit 1: xiaodou-behavior
+    Info: Found entity 1: xiaodou
+Info: Found 1 design units, including 1 entities, in source file Block1.bdf
+    Info: Found entity 1: Block1
+Info: Elaborating entity "yingtuo" for the top level hierarchy
+Warning: Block or symbol "xiaodou" of instance "inst10" overlaps another block or symbol
 Info: Elaborating entity "jianpan" for hierarchy "jianpan:inst9"
 Warning (10492): VHDL Process Statement warning at jianpan.vhd(42): signal "row_input" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at jianpan.vhd(43): signal "row_input" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
@@ -340,21 +366,9 @@ Info (10041): Inferred latch for "row_output[0]" at jianpan.vhd(39)
 Info (10041): Inferred latch for "row_output[1]" at jianpan.vhd(39)
 Info (10041): Inferred latch for "row_output[2]" at jianpan.vhd(39)
 Info (10041): Inferred latch for "row_output[3]" at jianpan.vhd(39)
-Warning: Using design file testcounter.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info: Found design unit 1: testcounter-counter_1
-    Info: Found entity 1: testcounter
 Info: Elaborating entity "testcounter" for hierarchy "testcounter:inst"
-Warning: Using design file testdianzhen.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info: Found design unit 1: testdianzhen-behavior
-    Info: Found entity 1: testdianzhen
 Info: Elaborating entity "testdianzhen" for hierarchy "testdianzhen:inst8"
-Warning: Using design file control.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info: Found design unit 1: control-behavior
-    Info: Found entity 1: control
 Info: Elaborating entity "control" for hierarchy "control:inst6"
-Warning: Using design file daojishi.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info: Found design unit 1: daojishi-counter_1
-    Info: Found entity 1: daojishi
 Info: Elaborating entity "daojishi" for hierarchy "daojishi:inst1"
 Warning (10492): VHDL Process Statement warning at daojishi.vhd(21): signal "c_state" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at daojishi.vhd(25): signal "c_state" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
@@ -379,9 +393,6 @@ Info (10041): Inferred latch for "nixie_1[4]" at daojishi.vhd(38)
 Info (10041): Inferred latch for "nixie_1[5]" at daojishi.vhd(38)
 Info (10041): Inferred latch for "nixie_1[6]" at daojishi.vhd(38)
 Info (10041): Inferred latch for "nixie_1[7]" at daojishi.vhd(38)
-Warning: Using design file defenjishu1103.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info: Found design unit 1: defenjishu1103-behavior
-    Info: Found entity 1: defenjishu1103
 Info: Elaborating entity "defenjishu1103" for hierarchy "defenjishu1103:inst3"
 Warning (10492): VHDL Process Statement warning at defenjishu1103.vhd(17): signal "p_state" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at defenjishu1103.vhd(18): signal "p_state" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
@@ -390,31 +401,16 @@ Warning (10492): VHDL Process Statement warning at defenjishu1103.vhd(29): signa
 Warning (10631): VHDL Process Statement warning at defenjishu1103.vhd(15): inferring latch(es) for signal or variable "gameover", which holds its previous value in one or more paths through the process
 Warning (10492): VHDL Process Statement warning at defenjishu1103.vhd(35): signal "color_flag" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Info (10041): Inferred latch for "gameover" at defenjishu1103.vhd(15)
-Warning: Using design file jifenqi1103.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info: Found design unit 1: jifenqi1103-behavior
-    Info: Found entity 1: jifenqi1103
 Info: Elaborating entity "jifenqi1103" for hierarchy "jifenqi1103:inst2"
 Warning (10492): VHDL Process Statement warning at jifenqi1103.vhd(34): signal "comin_row" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at jifenqi1103.vhd(34): signal "comin_column" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at jifenqi1103.vhd(36): signal "comin_row" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at jifenqi1103.vhd(36): signal "comin_column" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning: Using design file xiaodou.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info: Found design unit 1: xiaodou-behavior
-    Info: Found entity 1: xiaodou
 Info: Elaborating entity "xiaodou" for hierarchy "xiaodou:inst10"
-Warning: Using design file caidan1103.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info: Found design unit 1: caidan1103-behavioral
-    Info: Found entity 1: caidan1103
 Info: Elaborating entity "caidan1103" for hierarchy "caidan1103:inst7"
 Warning (10492): VHDL Process Statement warning at caidan1103.vhd(21): signal "row_out" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Warning (10492): VHDL Process Statement warning at caidan1103.vhd(28): signal "column_out" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
-Warning: Using design file shumaguan.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info: Found design unit 1: shumaguan-behavior
-    Info: Found entity 1: shumaguan
 Info: Elaborating entity "shumaguan" for hierarchy "shumaguan:inst5"
-Warning: Using design file jifenxianshi1105.vhd, which is not specified as a design file for the current project, but contains definitions for 2 design units and 1 entities in project
-    Info: Found design unit 1: jifenxianshi1105-behavior
-    Info: Found entity 1: jifenxianshi1105
 Info: Elaborating entity "jifenxianshi1105" for hierarchy "jifenxianshi1105:inst4"
 Warning: Clock multiplexers are found and protected
     Warning: Found clock multiplexer jifenqi1103:inst2|Mux8
@@ -439,14 +435,6 @@ Warning: Latch defenjishu1103:inst3|gameover has unsafe behavior
     Warning: Ports D and ENA on the latch are fed by the same signal control:inst6|process_0~0
 Warning: Output pins are stuck at VCC or GND
     Warning (13410): Pin "NIXIE[7]" is stuck at GND
-    Warning (13410): Pin "SCAN_NIXIE[7]" is stuck at GND
-    Warning (13410): Pin "SCAN_NIXIE[6]" is stuck at GND
-    Warning (13410): Pin "SCAN_NIXIE[5]" is stuck at GND
-    Warning (13410): Pin "SCAN_NIXIE[4]" is stuck at GND
-    Warning (13410): Pin "SCAN_NIXIE[3]" is stuck at GND
-    Warning (13410): Pin "SCAN_NIXIE[2]" is stuck at GND
-    Warning (13410): Pin "SCAN_NIXIE[1]" is stuck at GND
-    Warning (13410): Pin "SCAN_NIXIE[0]" is stuck at GND
 Info: 4 registers lost all their fanouts during netlist optimizations. The first 4 are displayed below.
     Info: Register "testcounter:inst|counter_2hz[3]" lost all its fanouts during netlist optimizations.
     Info: Register "testcounter:inst|counter_2hz[2]" lost all its fanouts during netlist optimizations.
@@ -454,14 +442,14 @@ Info: 4 registers lost all their fanouts during netlist optimizations. The first
     Info: Register "testcounter:inst|counter_2hz[0]" lost all its fanouts during netlist optimizations.
 Warning: Design contains 1 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "BEGIN_BTN7"
-Info: Implemented 477 device resources after synthesis - the final resource count might be different
+Info: Implemented 478 device resources after synthesis - the final resource count might be different
     Info: Implemented 7 input pins
     Info: Implemented 44 output pins
-    Info: Implemented 426 logic cells
-Info: Quartus II Analysis & Synthesis was successful. 0 errors, 73 warnings
+    Info: Implemented 427 logic cells
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 49 warnings
     Info: Peak virtual memory: 269 megabytes
-    Info: Processing ended: Sun Nov 05 16:44:39 2017
-    Info: Elapsed time: 00:00:04
+    Info: Processing ended: Sun Nov 05 18:51:13 2017
+    Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:03
 
 

@@ -70,7 +70,7 @@ applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 224 240 392 256)
+	(rect 208 240 376 256)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "BEGIN_BTN7" (rect 5 0 72 12)(font "Arial" ))
 	(pt 168 8)
@@ -150,7 +150,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1248 96 1433 112)
+	(rect 1264 96 1449 112)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "SCAN_NIXIE[7..0]" (rect 90 0 180 12)(font "Arial" ))
 	(pt 0 8)
@@ -667,7 +667,7 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 288 592 528 688)
+	(rect 304 592 544 688)
 	(text "xiaodou" (rect 5 0 42 12)(font "Arial" ))
 	(text "inst10" (rect 8 80 37 92)(font "Arial" ))
 	(port
@@ -827,16 +827,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 216 640)
-	(pt 288 640)
-	(bus)
-)
-(connector
-	(pt 216 656)
-	(pt 288 656)
-	(bus)
-)
-(connector
 	(pt 184 464)
 	(pt 792 464)
 )
@@ -861,16 +851,6 @@ applicable agreement for further details.
 (connector
 	(pt 792 464)
 	(pt 792 592)
-)
-(connector
-	(pt 528 624)
-	(pt 616 624)
-	(bus)
-)
-(connector
-	(pt 528 640)
-	(pt 616 640)
-	(bus)
 )
 (connector
 	(pt 552 608)
@@ -1116,14 +1096,6 @@ applicable agreement for further details.
 	(pt 256 576)
 )
 (connector
-	(pt 256 576)
-	(pt 256 624)
-)
-(connector
-	(pt 256 624)
-	(pt 288 624)
-)
-(connector
 	(pt 104 216)
 	(pt 120 216)
 )
@@ -1186,6 +1158,43 @@ applicable agreement for further details.
 (connector
 	(pt 8 216)
 	(pt -8 216)
+)
+(connector
+	(pt 1256 104)
+	(pt 1264 104)
+	(bus)
+)
+(connector
+	(pt 384 248)
+	(pt 376 248)
+)
+(connector
+	(pt 616 624)
+	(pt 544 624)
+	(bus)
+)
+(connector
+	(pt 616 640)
+	(pt 544 640)
+	(bus)
+)
+(connector
+	(pt 256 576)
+	(pt 256 624)
+)
+(connector
+	(pt 256 624)
+	(pt 304 624)
+)
+(connector
+	(pt 216 640)
+	(pt 304 640)
+	(bus)
+)
+(connector
+	(pt 216 656)
+	(pt 304 656)
+	(bus)
 )
 (junction (pt 656 216))
 (junction (pt 648 216))

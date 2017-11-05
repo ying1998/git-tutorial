@@ -48,7 +48,19 @@ set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 5
 set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name POWER_EXT_SUPPLY_VOLTAGE_TO_REGULATOR 3.3V
-set_global_assignment -name BDF_FILE Block1.bdf
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
 set_global_assignment -name MISC_FILE "E:/ddl-vhdl/yingtuo/yingtuo.dpf"
+set_global_assignment -name BDF_FILE yingtuo.bdf
+set_global_assignment -name VHDL_FILE caidan1103.vhd
+set_global_assignment -name VHDL_FILE control.vhd
+set_global_assignment -name VHDL_FILE daojishi.vhd
+set_global_assignment -name VHDL_FILE defenjishu1103.vhd
+set_global_assignment -name VHDL_FILE jianpan.vhd
+set_global_assignment -name VHDL_FILE jifenqi1103.vhd
+set_global_assignment -name VHDL_FILE jifenxianshi1105.vhd
+set_global_assignment -name VHDL_FILE shumaguan.vhd
+set_global_assignment -name VHDL_FILE testcounter.vhd
+set_global_assignment -name VHDL_FILE testdianzhen.vhd
+set_global_assignment -name VHDL_FILE xiaodou.vhd
+set_global_assignment -name BDF_FILE Block1.bdf

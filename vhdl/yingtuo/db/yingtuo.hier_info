@@ -17,6 +17,7 @@ COLUMN_GREEN[5] <= testdianzhen:inst8.column_green[5]
 COLUMN_GREEN[6] <= testdianzhen:inst8.column_green[6]
 COLUMN_GREEN[7] <= testdianzhen:inst8.column_green[7]
 RESET => control:inst6.reset
+BEGIN_BTN7 => control:inst6.BTN7
 COLUMN_RED[0] <= testdianzhen:inst8.column_red[0]
 COLUMN_RED[1] <= testdianzhen:inst8.column_red[1]
 COLUMN_RED[2] <= testdianzhen:inst8.column_red[2]
@@ -41,15 +42,14 @@ ROW_SCAN[4] <= testdianzhen:inst8.row_scanning[4]
 ROW_SCAN[5] <= testdianzhen:inst8.row_scanning[5]
 ROW_SCAN[6] <= testdianzhen:inst8.row_scanning[6]
 ROW_SCAN[7] <= testdianzhen:inst8.row_scanning[7]
-SCAN_NIXIE[0] <= <GND>
-SCAN_NIXIE[1] <= <GND>
-SCAN_NIXIE[2] <= <GND>
-SCAN_NIXIE[3] <= <GND>
-SCAN_NIXIE[4] <= <GND>
-SCAN_NIXIE[5] <= <GND>
-SCAN_NIXIE[6] <= <GND>
-SCAN_NIXIE[7] <= <GND>
-BEGIN_BTN7 => ~NO_FANOUT~
+SCAN_NIXIE[0] <= shumaguan:inst5.link_out_scan_nixie[0]
+SCAN_NIXIE[1] <= shumaguan:inst5.link_out_scan_nixie[1]
+SCAN_NIXIE[2] <= shumaguan:inst5.link_out_scan_nixie[2]
+SCAN_NIXIE[3] <= shumaguan:inst5.link_out_scan_nixie[3]
+SCAN_NIXIE[4] <= shumaguan:inst5.link_out_scan_nixie[4]
+SCAN_NIXIE[5] <= shumaguan:inst5.link_out_scan_nixie[5]
+SCAN_NIXIE[6] <= shumaguan:inst5.link_out_scan_nixie[6]
+SCAN_NIXIE[7] <= shumaguan:inst5.link_out_scan_nixie[7]
 
 
 |yingtuo|jianpan:inst9

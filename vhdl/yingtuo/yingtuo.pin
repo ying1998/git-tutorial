@@ -71,66 +71,66 @@ Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage 
 GND*                         : 1         :        :                   :         : 1         :                
 GND*                         : 2         :        :                   :         : 1         :                
 GND*                         : 3         :        :                   :         : 1         :                
-GND*                         : 4         :        :                   :         : 1         :                
+NIXIE[7]                     : 4         : output : 3.3-V LVTTL       :         : 1         : N              
 GND*                         : 5         :        :                   :         : 1         :                
 GND*                         : 6         :        :                   :         : 1         :                
-NIXIE[0]                     : 7         : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : 7         :        :                   :         : 1         :                
 GND*                         : 8         :        :                   :         : 1         :                
 VCCIO1                       : 9         : power  :                   : 3.3V    : 1         :                
 GNDIO                        : 10        : gnd    :                   :         :           :                
-GND*                         : 11        :        :                   :         : 1         :                
-COLUMN_GREEN[2]              : 12        : output : 3.3-V LVTTL       :         : 1         : N              
-GND*                         : 13        :        :                   :         : 1         :                
-COLUMN_RED[7]                : 14        : output : 3.3-V LVTTL       :         : 1         : N              
-GND*                         : 15        :        :                   :         : 1         :                
-GND*                         : 16        :        :                   :         : 1         :                
+SCAN_NIXIE[1]                : 11        : output : 3.3-V LVTTL       :         : 1         : N              
+SCAN_NIXIE[3]                : 12        : output : 3.3-V LVTTL       :         : 1         : N              
+NIXIE[0]                     : 13        : output : 3.3-V LVTTL       :         : 1         : N              
+SCAN_NIXIE[4]                : 14        : output : 3.3-V LVTTL       :         : 1         : N              
+COLUMN_RED[5]                : 15        : output : 3.3-V LVTTL       :         : 1         : N              
+NIXIE[5]                     : 16        : output : 3.3-V LVTTL       :         : 1         : N              
 GNDINT                       : 17        : gnd    :                   :         :           :                
 clk_in                       : 18        : input  : 3.3-V LVTTL       :         : 1         : N              
 VCCINT                       : 19        : power  :                   : 2.5V/3.3V :           :                
-GND*                         : 20        :        :                   :         : 1         :                
-COLUMN_GREEN[1]              : 21        : output : 3.3-V LVTTL       :         : 1         : N              
-NIXIE[6]                     : 22        : output : 3.3-V LVTTL       :         : 1         : N              
+SCAN_NIXIE[5]                : 20        : output : 3.3-V LVTTL       :         : 1         : N              
+ROW[2]                       : 21        : input  : 3.3-V LVTTL       :         : 1         : N              
+ROW[1]                       : 22        : input  : 3.3-V LVTTL       :         : 1         : N              
 GND*                         : 23        :        :                   :         : 1         :                
 GND*                         : 24        :        :                   :         : 1         :                
 VCCIO1                       : 25        : power  :                   : 3.3V    : 1         :                
 GNDIO                        : 26        : gnd    :                   :         :           :                
-GND*                         : 27        :        :                   :         : 1         :                
-COLUMN_RED[2]                : 28        : output : 3.3-V LVTTL       :         : 1         : N              
-SCAN_NIXIE[7]                : 29        : output : 3.3-V LVTTL       :         : 1         : N              
+ROW[0]                       : 27        : input  : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : 28        :        :                   :         : 1         :                
+ROW_SCAN[0]                  : 29        : output : 3.3-V LVTTL       :         : 1         : N              
 GND*                         : 30        :        :                   :         : 1         :                
 GND*                         : 31        :        :                   :         : 1         :                
-ROW[2]                       : 32        : input  : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : 32        :        :                   :         : 1         :                
 TMS                          : 33        : input  :                   :         : 1         :                
 TDI                          : 34        : input  :                   :         : 1         :                
 TCK                          : 35        : input  :                   :         : 1         :                
 TDO                          : 36        : output :                   :         : 1         :                
-SCAN_NIXIE[1]                : 37        : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : 37        :        :                   :         : 4         :                
 GND*                         : 38        :        :                   :         : 4         :                
 GND*                         : 39        :        :                   :         : 4         :                
-GND*                         : 40        :        :                   :         : 4         :                
+SCAN_NIXIE[2]                : 40        : output : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : 41        :        :                   :         : 4         :                
 GND*                         : 42        :        :                   :         : 4         :                
-ROW[1]                       : 43        : input  : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : 43        :        :                   :         : 4         :                
 GND*                         : 44        :        :                   :         : 4         :                
-GND*                         : 45        :        :                   :         : 4         :                
+ROW[3]                       : 45        : input  : 3.3-V LVTTL       :         : 4         : N              
 VCCIO4                       : 46        : power  :                   : 3.3V    : 4         :                
 GNDIO                        : 47        : gnd    :                   :         :           :                
-GND*                         : 48        :        :                   :         : 4         :                
-ROW_SCAN[3]                  : 49        : output : 3.3-V LVTTL       :         : 4         : N              
-NIXIE[1]                     : 50        : output : 3.3-V LVTTL       :         : 4         : N              
-ROW_SCAN[0]                  : 51        : output : 3.3-V LVTTL       :         : 4         : N              
+SCAN_NIXIE[0]                : 48        : output : 3.3-V LVTTL       :         : 4         : N              
+COLUMN_RED[0]                : 49        : output : 3.3-V LVTTL       :         : 4         : N              
+NIXIE[2]                     : 50        : output : 3.3-V LVTTL       :         : 4         : N              
+SCAN_NIXIE[6]                : 51        : output : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : 52        :        :                   :         : 4         :                
-COLUMN_GREEN[6]              : 53        : output : 3.3-V LVTTL       :         : 4         : N              
+COLUMN[0]                    : 53        : output : 3.3-V LVTTL       :         : 4         : N              
 GNDINT                       : 54        : gnd    :                   :         :           :                
-ROW_SCAN[7]                  : 55        : output : 3.3-V LVTTL       :         : 4         : N              
+COLUMN_GREEN[3]              : 55        : output : 3.3-V LVTTL       :         : 4         : N              
 VCCINT                       : 56        : power  :                   : 2.5V/3.3V :           :                
-COLUMN_GREEN[3]              : 57        : output : 3.3-V LVTTL       :         : 4         : N              
-ROW_SCAN[6]                  : 58        : output : 3.3-V LVTTL       :         : 4         : N              
-COLUMN_RED[1]                : 59        : output : 3.3-V LVTTL       :         : 4         : N              
-NIXIE[5]                     : 60        : output : 3.3-V LVTTL       :         : 4         : N              
-COLUMN_RED[4]                : 61        : output : 3.3-V LVTTL       :         : 4         : N              
-RESET                        : 62        : input  : 3.3-V LVTTL       :         : 4         : N              
-ROW_SCAN[4]                  : 63        : output : 3.3-V LVTTL       :         : 4         : N              
+COLUMN_GREEN[6]              : 57        : output : 3.3-V LVTTL       :         : 4         : N              
+ROW_SCAN[1]                  : 58        : output : 3.3-V LVTTL       :         : 4         : N              
+ROW_SCAN[4]                  : 59        : output : 3.3-V LVTTL       :         : 4         : N              
+ROW_SCAN[6]                  : 60        : output : 3.3-V LVTTL       :         : 4         : N              
+ROW_SCAN[2]                  : 61        : output : 3.3-V LVTTL       :         : 4         : N              
+COLUMN_RED[1]                : 62        : output : 3.3-V LVTTL       :         : 4         : N              
+GND*                         : 63        :        :                   :         : 4         :                
 VCCIO4                       : 64        : power  :                   : 3.3V    : 4         :                
 GNDIO                        : 65        : gnd    :                   :         :           :                
 GND*                         : 66        :        :                   :         : 4         :                
@@ -139,10 +139,10 @@ GND*                         : 68        :        :                   :         
 GND*                         : 69        :        :                   :         : 4         :                
 GND*                         : 70        :        :                   :         : 4         :                
 GND*                         : 71        :        :                   :         : 4         :                
-GND*                         : 72        :        :                   :         : 4         :                
+BEGIN_BTN7                   : 72        : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : 73        :        :                   :         : 3         :                
 GND*                         : 74        :        :                   :         : 3         :                
-SCAN_NIXIE[5]                : 75        : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : 75        :        :                   :         : 3         :                
 GND*                         : 76        :        :                   :         : 3         :                
 GND*                         : 77        :        :                   :         : 3         :                
 GND*                         : 78        :        :                   :         : 3         :                
@@ -152,13 +152,13 @@ GND*                         : 81        :        :                   :         
 VCCIO3                       : 82        : power  :                   : 3.3V    : 3         :                
 GNDIO                        : 83        : gnd    :                   :         :           :                
 GND*                         : 84        :        :                   :         : 3         :                
-ROW_SCAN[1]                  : 85        : output : 3.3-V LVTTL       :         : 3         : N              
+COLUMN_RED[2]                : 85        : output : 3.3-V LVTTL       :         : 3         : N              
 GND*                         : 86        :        :                   :         : 3         :                
-SCAN_NIXIE[0]                : 87        : output : 3.3-V LVTTL       :         : 3         : N              
-SCAN_NIXIE[3]                : 88        : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : 87        :        :                   :         : 3         :                
+GND*                         : 88        :        :                   :         : 3         :                
 GND*                         : 89        :        :                   :         : 3         :                
 VCCINT                       : 90        : power  :                   : 2.5V/3.3V :           :                
-COLUMN_RED[6]                : 91        : output : 3.3-V LVTTL       :         : 3         : N              
+ROW_SCAN[5]                  : 91        : output : 3.3-V LVTTL       :         : 3         : N              
 GNDINT                       : 92        : gnd    :                   :         :           :                
 GND*                         : 93        :        :                   :         : 3         :                
 GND*                         : 94        :        :                   :         : 3         :                
@@ -168,45 +168,45 @@ GND*                         : 97        :        :                   :         
 GND*                         : 98        :        :                   :         : 3         :                
 GNDIO                        : 99        : gnd    :                   :         :           :                
 VCCIO3                       : 100       : power  :                   : 3.3V    : 3         :                
-COLUMN_GREEN[7]              : 101       : output : 3.3-V LVTTL       :         : 3         : N              
-BEGIN_BTN7                   : 102       : input  : 3.3-V LVTTL       :         : 3         : N              
+COLUMN_GREEN[5]              : 101       : output : 3.3-V LVTTL       :         : 3         : N              
+COLUMN_RED[7]                : 102       : output : 3.3-V LVTTL       :         : 3         : N              
 GND*                         : 103       :        :                   :         : 3         :                
 GND*                         : 104       :        :                   :         : 3         :                
-COLUMN_GREEN[0]              : 105       : output : 3.3-V LVTTL       :         : 3         : N              
+RESET                        : 105       : input  : 3.3-V LVTTL       :         : 3         : N              
 GND*                         : 106       :        :                   :         : 3         :                
 GND*                         : 107       :        :                   :         : 3         :                
-GND*                         : 108       :        :                   :         : 3         :                
-NIXIE[7]                     : 109       : output : 3.3-V LVTTL       :         : 2         : N              
+COLUMN[2]                    : 108       : output : 3.3-V LVTTL       :         : 3         : N              
+GND*                         : 109       :        :                   :         : 2         :                
 GND*                         : 110       :        :                   :         : 2         :                
 GND*                         : 111       :        :                   :         : 2         :                
-SCAN_NIXIE[6]                : 112       : output : 3.3-V LVTTL       :         : 2         : N              
-COLUMN_RED[5]                : 113       : output : 3.3-V LVTTL       :         : 2         : N              
-ROW_SCAN[5]                  : 114       : output : 3.3-V LVTTL       :         : 2         : N              
+COLUMN[1]                    : 112       : output : 3.3-V LVTTL       :         : 2         : N              
+COLUMN[3]                    : 113       : output : 3.3-V LVTTL       :         : 2         : N              
+COLUMN_RED[3]                : 114       : output : 3.3-V LVTTL       :         : 2         : N              
 GNDIO                        : 115       : gnd    :                   :         :           :                
 VCCIO2                       : 116       : power  :                   : 3.3V    : 2         :                
-ROW_SCAN[2]                  : 117       : output : 3.3-V LVTTL       :         : 2         : N              
-NIXIE[4]                     : 118       : output : 3.3-V LVTTL       :         : 2         : N              
-COLUMN[1]                    : 119       : output : 3.3-V LVTTL       :         : 2         : N              
-COLUMN[0]                    : 120       : output : 3.3-V LVTTL       :         : 2         : N              
-NIXIE[3]                     : 121       : output : 3.3-V LVTTL       :         : 2         : N              
-COLUMN[2]                    : 122       : output : 3.3-V LVTTL       :         : 2         : N              
-COLUMN_RED[3]                : 123       : output : 3.3-V LVTTL       :         : 2         : N              
-COLUMN[3]                    : 124       : output : 3.3-V LVTTL       :         : 2         : N              
-COLUMN_GREEN[4]              : 125       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : 117       :        :                   :         : 2         :                
+COLUMN_RED[4]                : 118       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : 119       :        :                   :         : 2         :                
+COLUMN_GREEN[7]              : 120       : output : 3.3-V LVTTL       :         : 2         : N              
+NIXIE[1]                     : 121       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : 122       :        :                   :         : 2         :                
+COLUMN_RED[6]                : 123       : output : 3.3-V LVTTL       :         : 2         : N              
+COLUMN_GREEN[0]              : 124       : output : 3.3-V LVTTL       :         : 2         : N              
+ROW_SCAN[3]                  : 125       : output : 3.3-V LVTTL       :         : 2         : N              
 VCCINT                       : 126       : power  :                   : 2.5V/3.3V :           :                
-GND*                         : 127       :        :                   :         : 2         :                
+NIXIE[6]                     : 127       : output : 3.3-V LVTTL       :         : 2         : N              
 GNDINT                       : 128       : gnd    :                   :         :           :                
-SCAN_NIXIE[4]                : 129       : output : 3.3-V LVTTL       :         : 2         : N              
-COLUMN_RED[0]                : 130       : output : 3.3-V LVTTL       :         : 2         : N              
-COLUMN_GREEN[5]              : 131       : output : 3.3-V LVTTL       :         : 2         : N              
-NIXIE[2]                     : 132       : output : 3.3-V LVTTL       :         : 2         : N              
-GND*                         : 133       :        :                   :         : 2         :                
-SCAN_NIXIE[2]                : 134       : output : 3.3-V LVTTL       :         : 2         : N              
+COLUMN_GREEN[1]              : 129       : output : 3.3-V LVTTL       :         : 2         : N              
+ROW_SCAN[7]                  : 130       : output : 3.3-V LVTTL       :         : 2         : N              
+COLUMN_GREEN[4]              : 131       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : 132       :        :                   :         : 2         :                
+NIXIE[4]                     : 133       : output : 3.3-V LVTTL       :         : 2         : N              
+COLUMN_GREEN[2]              : 134       : output : 3.3-V LVTTL       :         : 2         : N              
 GNDIO                        : 135       : gnd    :                   :         :           :                
 VCCIO2                       : 136       : power  :                   : 3.3V    : 2         :                
-GND*                         : 137       :        :                   :         : 2         :                
-ROW[0]                       : 138       : input  : 3.3-V LVTTL       :         : 2         : N              
-ROW[3]                       : 139       : input  : 3.3-V LVTTL       :         : 2         : N              
+NIXIE[3]                     : 137       : output : 3.3-V LVTTL       :         : 2         : N              
+GND*                         : 138       :        :                   :         : 2         :                
+SCAN_NIXIE[7]                : 139       : output : 3.3-V LVTTL       :         : 2         : N              
 GND*                         : 140       :        :                   :         : 2         :                
 GND*                         : 141       :        :                   :         : 2         :                
 GND*                         : 142       :        :                   :         : 2         :                
