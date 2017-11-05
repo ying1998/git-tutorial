@@ -85,39 +85,6 @@ d:|software|quartus|quartus|lmf|maxplus2.lmf
 
 # end
 # entity
-control
-# storage
-db|yingtuo.(3).cnf
-db|yingtuo.(3).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_insensitive
-# source_file
-control.vhd
-3f46232032512f4c5cad2681b4afe73a
-5
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-}
-# hierarchies {
-control:inst6
-}
-# lmf
-d:|software|quartus|quartus|lmf|maxplus2.lmf
-9a59d39b0706640b4b2718e8a1ff1f
-# macro_sequence
-
-# end
-# entity
 defenjishu1103
 # storage
 db|yingtuo.(4).cnf
@@ -389,7 +356,7 @@ db|yingtuo.(0).cnf
 # case_insensitive
 # source_file
 yingtuo.bdf
-555f786265fa045b11e3fab37fb63ad
+a6208ca99e1eda1e45344f407f241bc
 26
 # internal_option {
 BLOCK_DESIGN_NAMING
@@ -398,6 +365,39 @@ AUTO
 # hierarchies {
 |
 }
+# macro_sequence
+
+# end
+# entity
+control
+# storage
+db|yingtuo.(3).cnf
+db|yingtuo.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+control.vhd
+a913f6a9fac994b67ec85bcb5726adb5
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+control:inst6
+}
+# lmf
+d:|software|quartus|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
 # macro_sequence
 
 # end

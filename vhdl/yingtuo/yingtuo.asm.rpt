@@ -1,5 +1,5 @@
 Assembler report for yingtuo
-Sun Nov 05 18:51:16 2017
+Sun Nov 05 23:00:26 2017
 Quartus II Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sun Nov 05 18:51:16 2017 ;
+; Assembler Status      ; Successful - Sun Nov 05 23:00:26 2017 ;
 ; Revision Name         ; yingtuo                               ;
 ; Top-level Entity Name ; yingtuo                               ;
 ; Family                ; MAX II                                ;
@@ -89,7 +89,7 @@ applicable agreement for further details.
 +----------------+------------------------------------------+
 ; Device         ; EPM1270T144C5                            ;
 ; JTAG usercode  ; 0xFFFFFFFF                               ;
-; Checksum       ; 0x005E67BB                               ;
+; Checksum       ; 0x005DF540                               ;
 +----------------+------------------------------------------+
 
 
@@ -99,13 +99,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II Assembler
     Info: Version 9.0 Build 235 06/17/2009 Service Pack 2 SJ Web Edition
-    Info: Processing started: Sun Nov 05 18:51:16 2017
+    Info: Processing started: Sun Nov 05 23:00:26 2017
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off yingtuo -c yingtuo
 Info: Writing out detailed assembly data for power analysis
 Info: Assembler is generating device programming files
 Info: Quartus II Assembler was successful. 0 errors, 0 warnings
     Info: Peak virtual memory: 222 megabytes
-    Info: Processing ended: Sun Nov 05 18:51:16 2017
+    Info: Processing ended: Sun Nov 05 23:00:26 2017
     Info: Elapsed time: 00:00:00
     Info: Total CPU time (on all processors): 00:00:00
 

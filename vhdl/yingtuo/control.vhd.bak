@@ -24,8 +24,6 @@ signal c_exchange : std_logic_vector(2 downto 0):="000";
 		state<="11"; --fall
 		elsif ( BTN7= '1') then
 		state<="01"; --begin
-		elsif ( BTN7 ='1' and (state ="10" or state = "11"))then
-		state<="00";  -- chong xin kai shi you xi
 		else 
 		state <= "01";
 		end if;
